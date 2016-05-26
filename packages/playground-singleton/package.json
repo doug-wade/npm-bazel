@@ -1,0 +1,22 @@
+{
+  "name": "playground-singleton",
+  "version": "0.0.5",
+  "description": "A package that must be a singleton across all dependencies that require it",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "redfin/npm-bazel"
+  },
+  "keywords": [
+    "singleton",
+    "playground"
+  ],
+  "author": "Doug Wade <doug.wade@redfin.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.14.0"
+  }
+}

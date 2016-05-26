@@ -1,0 +1,22 @@
+{
+  "name": "npm-bazel",
+  "version": "1.0.0",
+  "description": "This project provides a generator tool, `npm-bazel-gen.py`, to generate `WORKSPACE` rules and `BUILD` files for [npm](https://www.npmjs.com/) modules. It also provides Skylark rules in `build_tools/npm.bzl` to build `npm` modules in Bazel's sandbox.",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "python ./npm-bazel-gen.py",
+    "prepublish": "bazel build packages/playground-server",
+    "start": "node bazel-out/local-fastbuild/bin/packages/playground-server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redfin/npm-bazel.git"
+  },
+  "keywords": [],
+  "author": "Dan Fabulich",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/redfin/npm-bazel/issues"
+  },
+  "homepage": "https://github.com/redfin/npm-bazel#readme"
+}

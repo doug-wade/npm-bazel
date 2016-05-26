@@ -1,0 +1,25 @@
+{
+  "name": "playground-lib",
+  "version": "0.0.4",
+  "description": "A lib for using playground-singleton with a simplified api",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "redfin/npm-bazel"
+  },
+  "keywords": [
+    "playground",
+    "lib"
+  ],
+  "dependencies": {
+    "playground-singleton": "0.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0"
+  },
+  "author": "Doug Wade <doug.wade@redfin.com>",
+  "license": "MIT"
+}

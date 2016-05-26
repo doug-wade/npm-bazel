@@ -1,0 +1,27 @@
+{
+  "name": "playground-server",
+  "version": "0.0.1",
+  "description": "Play around with tracking users",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava tests.js",
+    "start": "node index.js"
+  },
+  "private": true,
+  "author": "Doug Wade",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "koa": "^1.1.2",
+    "koa-bodyparser": "^2.0.1",
+    "koa-router": "^5.3.0",
+    "koa-static": "^2.0.0",
+    "playground-lib": "0.0.1",
+    "playground-singleton": "0.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "ava": "^0.14.0"
+  },
+  "repository": "redfin/npm-bazel"
+}
